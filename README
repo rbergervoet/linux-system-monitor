@@ -1,0 +1,17 @@
+System Monitor
+This python script monitors overall system health and resources and is easily extendible.
+Check the psutil documentation:
+	https://psutil.readthedocs.io/en/latest/
+
+Dependencies are some python modules:
+    lm-sensors
+    python3-rich
+    python3-psutil
+    python3-readchar
+
+To execute on a Linux system:
+    # ./sys_mon.py
+
+    Press 'q' to quit.
+
+
